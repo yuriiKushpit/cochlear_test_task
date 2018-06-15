@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="781a65df-9f0e-4615-bc59-59b8d3413add" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/testing_task_v_and_v.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/testing_task_v_and_v.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration_data/ios_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/configuration_data/ios_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver_data/driver_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/driver_data/driver_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver_data/ios_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driver_data/ios_driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/element_data/element.py" beforeDir="false" afterPath="$PROJECT_DIR$/element_data/element.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/global_variables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/start_page.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/start_page.json" afterDir="false" />
-    </list>
+    <list default="true" id="781a65df-9f0e-4615-bc59-59b8d3413add" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -463,16 +453,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="800" y="23" width="1120" height="1019" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.45131937" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2611901" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32984293" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32935324" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35900217" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32935324" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Palette" order="3" />

@@ -19,7 +19,7 @@ def set_up_starting_driver():
         data = {}
         platform = global_data.platform.capitalize()
         data['platformName'] = platform
-        data['appiumServerAddress'] = "http://172.26.78.20:4723/wd/hub"
+        data['appiumServerAddress'] = "http://localhost:4723/wd/hub"
         __driver_instance = DriverHandler(data["platformName"], data["appiumServerAddress"])
     return __driver_instance
 
