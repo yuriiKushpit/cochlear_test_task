@@ -27,8 +27,10 @@ def set_up_starting_driver():
 class DriverHandler(object):
     def __init__(self, platform, appium_address):
         self.platform = platform
+        self.capabilities_ios = self.read_config(ios_config)
+        self.capabilities_ios["language"] = global_data.language
         self.driver = AndroidDriver(appium_address, self.read_config(android_config)) if platform == 'Android' \
-            else iOSDriver(appium_address, self.read_config(ios_config))
+            else iOSDriver(appium_address, self.capabilities_ios)
 
     def read_config(self, platform_directory):
         current_path = os.path.abspath(__file__)
