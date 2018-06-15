@@ -2,7 +2,7 @@
   "description_area": {
     "locators": {
         "android": "com.cochlear.clientremote.internal:id/txt_description",
-        "ios": "Privacy Policy"
+        "ios": "//XCUIElementTypeImage[@name='apptour-bg-1-welcome']/following-sibling::XCUIElementTypeScrollView//XCUIElementTypeStaticText[2]"
     },
     "language": {
       "en" : "The Cochlear™ Nucleus® Smart App allows users of compatible Sound Processors to easily manage their hearing.",
@@ -16,7 +16,7 @@
   "welcome_label": {
     "locators": {
       "android": "com.cochlear.clientremote.internal:id/txt_title",
-      "ios": "Privacy Policy"
+      "ios": "//XCUIElementTypeImage[@name='apptour-bg-1-welcome']/following-sibling::XCUIElementTypeScrollView//XCUIElementTypeStaticText"
     },
     "language": {
       "en": "Welcome",
@@ -30,7 +30,7 @@
   "swipe_arrow": {
     "locators": {
       "android": "com.cochlear.clientremote.internal:id/txt_swipe",
-      "ios": "Privacy Policy"
+      "ios": "//XCUIElementTypeImage[@name='apptour-bg-1-welcome']/following-sibling::XCUIElementTypeScrollView//XCUIElementTypeStaticText[3]"
     },
     "language": {
       "en": "Swipe left",
