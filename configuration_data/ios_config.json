@@ -1,11 +1,11 @@
 {
   "deviceName": "iPhone SE",
-  "udid": "38dc651b6bf54e735200d8921bcde40491a1a84f",
+  "udid": "b3346f9b0c4797e7a68fffb4532e1727bc23ad76",
   "platformName": "iOS",
   "automationName": "XCUITest",
   "xcodeSigningId": "iPhone Developer",
   "updatedWDABundleId": "com.afkTestTeam.WebDriverAgentLib",
   "shouldWaitForQuiescence": "False",
   "fastReset": true,
-  "appPath": "/Users/pavlo.tsyupka/Downloads/Nucleus Smart 1.431.2.zip"
+  "app": "/Users/pavlo.tsyupka/Downloads/Nucleus Smart 1.431.2.zip"
 }

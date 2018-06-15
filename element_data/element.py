@@ -58,5 +58,8 @@ class Element():
        :param attribute: Attribute for an element(string).
        :return: Attribute value.
        """
-        attribute = driver_instance.get_text(self, "text")
+        if driver_instance.platform == "Android":
+            attribute = driver_instance.get_text(self, "text")
+        else:
+            attribute = driver_instance.get_text(self, "value")
         return attribute

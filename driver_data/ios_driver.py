@@ -13,6 +13,6 @@ class iOSDriver(object):
         self.driver.quit()
 
     def get_text(self, element_id, attribute):
-        element = self.driver.find_element_by_id(element_id)
+        element = self.driver.find_element_by_xpath(element_id)
         text = element.get_attribute(attribute)
         return text

@@ -16,7 +16,7 @@
   "welcome_label": {
     "locators": {
       "android": "com.cochlear.clientremote.internal:id/txt_title",
-      "ios": "//XCUIElementTypeImage[@name='apptour-bg-1-welcome']/following-sibling::XCUIElementTypeScrollView//XCUIElementTypeStaticText"
+      "ios": "//XCUIElementTypeImage[@name='apptour-bg-1-welcome']/following-sibling::XCUIElementTypeScrollView//XCUIElementTypeStaticText[1]"
     },
     "language": {
       "en": "Welcome",
@@ -30,7 +30,7 @@
   "swipe_arrow": {
     "locators": {
       "android": "com.cochlear.clientremote.internal:id/txt_swipe",
-      "ios": "//XCUIElementTypeImage[@name='apptour-bg-1-welcome']/following-sibling::XCUIElementTypeScrollView//XCUIElementTypeStaticText[3]"
+      "ios": "//XCUIElementTypeImage[@name='apptour-bg-1-welcome']/following-sibling::XCUIElementTypeScrollView//XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText"
     },
     "language": {
       "en": "Swipe left",

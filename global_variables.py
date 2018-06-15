@@ -24,4 +24,5 @@ class GlobalVariables:
         self.platform = self.command_parameter.get("platform", self.default_platform)
         if self.platform not in self.platforms:
             self.platform = self.default_platform
-        change_language(self.language)
+        if self.platform == "android":
+            change_language(self.language)
